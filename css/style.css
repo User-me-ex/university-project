@@ -1,0 +1,10 @@
+.body{
+    background-image: url('/images/campus.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.first{
+    left: 50%;
+    color :white;
+}
