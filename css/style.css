@@ -3,10 +3,41 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 100vh;
+    
 
 }
 
 .first{
-    left: 50%;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgba(175, 245, 46, 0.692);
+    left:50%;
     color :rgb(0, 0, 0);
+    text-align: center;
+}
+
+.nav{
+    background-color: rgba(255, 255, 255, 0.411);
+    height:50px;
+    border-radius: 10px;
+     
+}
+
+
+
+.button{
+    height: 30px;
+    border-radius:10px;
+    background-color: rgba(20, 139, 243, 0.678);
+    align:center;
+}
+
+.button:hover{
+    color:blue;
+    font-size: 15px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    background-color: rgb(21, 231, 116);
+    transition: ease-in-out 0.3s;
 }
