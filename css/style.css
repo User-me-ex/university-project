@@ -29,7 +29,7 @@
 
 
 
-.link{
+[class^="link"]{
     text-align:center;
     align-content: center;
     font-size: 15px;
@@ -40,7 +40,7 @@
     background-color: rgba(20, 139, 243, 0.678);
 }
 
-.link:hover{
+[class^=link]:hover{
     height:30px;
     width:80px;
     color:blue;
@@ -51,7 +51,33 @@
     transition: ease-in-out 0.3s;
 }
 
-.link .placement{
-width:200px;
+
+.link_placement_section:hover{
+    height:30px;
+    width:150px;
+    color:blue;
+    font-size: 15px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    background-color: rgb(21, 231, 116);
+    transition: ease-in-out 0.3s;
 }
 
+.link_download_routines:hover{
+    height:30px;
+    width:150px;
+    color:blue;
+    font-size: 15px;
+    font-weight: bold; 
+    text-transform: uppercase;
+    background-color: rgb(21, 231, 116);
+    transition: ease-in-out 0.3s;
+}
+
+
+.link_placement_section{
+width:120px;
+}
+.link_download_routines{
+    width:130px;
+}
