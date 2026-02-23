@@ -31,7 +31,9 @@
 
 
 [class^="link"]{
-    color: blue;
+    font-weight: bold; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
     text-align:center;
     align-content: center;
     font-size: 15px;
@@ -43,7 +45,7 @@
 }
 
 [class^=link]:hover{
-    transform:scale(1.2);
+    transform:scale(1.1);
     height: 35px;
     color:blue;
     font-size: 15px;
