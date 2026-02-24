@@ -116,4 +116,12 @@ width:120px;
     font-weight: bold; 
     color: rgb(0, 0, 0);
     padding: 5px;
+    text-transform: uppercase;
+}
+
+.icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }
