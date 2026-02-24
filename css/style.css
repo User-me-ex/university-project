@@ -85,14 +85,14 @@ width:120px;
 }
 
 .img{
+    border: 3px solid black;
     height: 200px;
     width: 300px;
     border-radius: 10px;
-    margin: 10px;
+    
 }
 
 .campus_nav{
-    margin: 10px;
     background-color: rgba(127, 255, 212, 0.479);
 }
 
@@ -101,4 +101,19 @@ width:120px;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+
+.caption_image{
+    display: inline-block;
+    margin: 10px;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.figcaption{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold; 
+    color: rgb(0, 0, 0);
+    padding: 5px;
 }
